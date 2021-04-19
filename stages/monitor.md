@@ -6,12 +6,12 @@
 ### __Stage description:__  
 Monitoring of application, server, OS, hardware etc. This can help track performance issues and user behaviour.
 
-| Pipeline Stage:<br>Monitor      | business Users  | system administrators  | testers | PO  | developers  | business support/operations teams  |
-|-------------------------------- |---------------- |----------------------- |-------- |---- |------------ |----------------------------------- |
-| system performance              |       I         |          R             |   I     |  I  |     C       |              A                     |
-| system usage monitoring         |                 |          C             |   I     |     |             |              RA                    |
-| system user access              |       V         |          A             |         |     |             |              R                     |
-| system availability             |       I         |          R             |   I     |  I  |     I       |              A                     |
-| system deployments and patching |       I         |          RA            |   V     |  S  |     I       |              V                     |
+| Pipeline Stage:<br>Monitor    | business Users/Clients  | system administrators  | testers | PO  | developers  | business support/operations teams/UX  | Product owner |
+|------------------------------ |------------------------ |----------------------- |-------- |---- |------------ |-------------------------------------- |-------------- |
+| system performance            |       I                 |          R             |   I     |  I  |     I       |              A                        |      I        |
+| system usage monitoring       |                         |          C             |   I     |     |             |              RA                       |      I        |
+| system user access            |       V                 |          A             |         |     |             |              R                        |      I        |
+| system availability           |       I                 |          R             |   I     |  I  |     I       |              A                        |      I        |
+| system deployments + patching |       I                 |          RA            |   V     |  S  |     I       |              V                        |      I        |
   
 [Home](../index.md)  
